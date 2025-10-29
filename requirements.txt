@@ -1,0 +1,125 @@
+
+# If you use base64, json, uuid, datetime, queue, signal, sys, time, random, logging, traceback, collections, ssl: these are standard library and do not need to be listed.
+# Core web framework and API
+fastapi
+uvicorn
+google-genai
+
+# Database and cache
+redis[asyncio]
+supabase
+
+# Logging and structured logging
+structlog
+
+# WebSocket support
+websockets
+
+# Audio and streaming (for client)
+#pyaudio
+
+# HTTP clients
+requests
+aiohttp
+certifi
+
+# Data science (for notebooks/tests)
+pandas
+ipython
+
+# Typing and utilities
+python-dotenv
+
+# Testing
+pytest
+
+# Optional: for async tasks, concurrency, etc.
+asyncio
+
+# If you use Docker, these are not needed in requirements.txt:
+# - docker
+# - docker-compose
+
+# If you use Jupyter notebooks
+notebook
+
+# If you use base64, json, uuid, datetime, queue, signal, sys, time, random, logging, traceback, collections, ssl: these are standard library and do not need to be listed.
+
+# NEW DEPENDENCIES FOR EMAIL AND WRITING EVALUATION
+
+# Email functionality
+aiosmtplib
+email-validator
+jinja2
+premailer
+
+# Alternative email libraries (choose one if needed)
+# fastapi-mail
+# sendgrid
+# mailgun
+
+# Text processing and evaluation
+nltk
+spacy
+textstat
+language-tool-python
+
+# Additional text analysis (optional)
+# textblob
+# gensim
+
+# Enhanced async and background tasks
+celery
+flower
+
+# Security enhancements
+python-jwt
+cryptography
+passlib[bcrypt]
+
+# Performance and caching
+slowapi
+cachetools
+
+# # Development and testing (optional)
+# pytest-asyncio
+# httpx
+# faker
+
+# # Data validation and serialization
+# marshmallow
+# cerberus
+
+# # File handling (if needed for attachments)
+# python-magic
+pillow
+
+# Optional: Advanced text processing
+# transformers
+# torch
+
+# Optional: Database migrations
+# alembic
+
+# # Optional: API documentation enhancements
+# fastapi-pagination
+# fastapi-limiter
+
+# Pydantic for data validation (usually included with FastAPI)
+pydantic
+pydantic-settings
+
+# Python multipart for file uploads
+python-multipart
+
+# # Updated Google Generative AI (ensure latest version)
+google-generativeai
+
+# Background task dependencies
+python-dateutil
+
+# JSON Web Tokens
+pyjwt
+
+# # Additional utilities
+# python-magic-bin
