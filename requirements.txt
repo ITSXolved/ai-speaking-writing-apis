@@ -1,0 +1,30 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Pydantic
+pydantic
+pydantic-settings
+
+# Supabase
+supabase
+
+# Database
+psycopg[binary]
+asyncpg
+
+# Authentication
+PyJWT
+cryptography
+
+# Utilities
+python-dotenv
+python-dateutil
+
+# HTTP client
+httpx
+requests
+
+# Logging
+python-json-logger
